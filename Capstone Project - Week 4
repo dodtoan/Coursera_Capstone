@@ -1,0 +1,10 @@
+Introduction.
+
+Ho Chi Minh city is largest city of Vietnam which have nearly ten million in terms of population and have a lot of non-residents such as business travellers or tourists. The statistics showed that there was more than 6 million international tourist visited Ho Chi Minh city in the first 9 months of 2019. This is amazing number for any related business and this is the reason why a group of young investors would like to find a good location to start their business by setting up a restaurant or coffee shop in this crowded and dynamic city. The investor would like to levarage the data analyse advise them where is good location to open their business.
+
+From this stand point, there are several ways of approach such as identify where are the most attractives of people in the city or where are the business centres and so on. One of the approach is using availabe location based data to analyse it and make the recommendation.
+
+In solving this problem, the location data comes from a csv file which define the latitude, longtitude and other information of all the cities in Vietnam as well as its neighbourhoods. Obviously, this data is raw data and need to be cleaned before actually use. The cleaned data can be used as "source" data to explore further venues in the every single neighbourhood using FourSquare API. 
+
+By exploring the venue data from Foursquare, clustering algorithm would be applied to cateforize the neighbourhoods in to sevreal clusters which they have the similars properties and from that view, the good location to start cafe/restaurant business can be suggested.
+
